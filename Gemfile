@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.2.1"
 gem 'rails', '4.2.1'
-
+gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
@@ -20,7 +20,7 @@ group :development, :test do
 end
 
 group :production do
- gem 'pg'
+ 
  gem 'rails_12factor'
 end
 
